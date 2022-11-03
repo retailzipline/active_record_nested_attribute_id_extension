@@ -1,6 +1,8 @@
-require "active_record_nested_attribute_id_extension/version"
+require "active_record"
+require "active_record_nested_attribute_id_extension/one_to_one"
+require "active_record_nested_attribute_id_extension/collection"
 require "active_record_nested_attribute_id_extension/railtie"
+require "active_record_nested_attribute_id_extension/version"
 
 module ActiveRecordNestedAttributeIdExtension
-  # Your code goes here...
 end
